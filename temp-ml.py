@@ -2,7 +2,8 @@
 #input of array of a single img of the posenet output
 def find_state_within_pushup_rep(inp):
 
-    try f=open("initial.txt","r"):
+    try:
+        f=open("initial.txt","r")
         (max_y,min_y,forgive)=f.split()
     except:
         f=open("intiial.txt","w"):
