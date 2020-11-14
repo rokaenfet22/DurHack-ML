@@ -6,7 +6,7 @@ def find_state_within_pushup_rep(inp):
         f=open("initial.txt","r")
         (max_y,min_y,forgive)=f.split()
     except:
-        f=open("intiial.txt","w"):
+        f=open("intiial.txt","w")
         #Don't what the inp looks like yet
         f.write(str(1)+" "+str(1)+" "+str(1))
         (max_y,min_y,forgive)=[1,1,1]
